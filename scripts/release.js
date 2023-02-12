@@ -138,8 +138,8 @@ function runTask(options) {
     title: `Publish ${options.version}`,
     task: () => {
       return semver.prerelease(options.version) ?
-        execa.shell(`cd ${BUILD_DIR} && npm publish --tag beta`) :
-        execa.shell(`cd ${BUILD_DIR} && npm publish`);
+        execa.shell(`cd ${BUILD_DIR} && npm publish --tag beta --access public`) :
+        execa.shell(`cd ${BUILD_DIR} && npm publish --access public`);
     },
   }, {
     title: 'Push to GitHub',

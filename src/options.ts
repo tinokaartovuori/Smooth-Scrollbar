@@ -30,6 +30,13 @@ export class Options {
   renderByPixels = true;
 
   /**
+   * Set to `true` to use an external RAF loop.
+   * This requires wiring up/calling the scrollbar render() function yourself.
+   */
+  @boolean
+  externalRAF = false;
+
+  /**
    * Keep scrollbar tracks visible
    */
   @boolean
@@ -54,7 +61,9 @@ export class Options {
   }
 
   set wheelEventTarget(el: EventTarget | null) {
-    console.warn('[smooth-scrollbar]: `options.wheelEventTarget` is deprecated and will be removed in the future, use `options.delegateTo` instead.');
+    console.warn(
+      "[smooth-scrollbar]: `options.wheelEventTarget` is deprecated and will be removed in the future, use `options.delegateTo` instead."
+    );
 
     this.delegateTo = el;
   }
