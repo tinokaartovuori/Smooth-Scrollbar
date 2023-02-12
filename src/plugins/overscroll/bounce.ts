@@ -1,4 +1,4 @@
-import Scrollbar from 'smooth-scrollbar';
+import { Scrollbar } from '../../scrollbar';
 
 import { setStyle } from '../../utils/set-style';
 

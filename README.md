@@ -8,8 +8,8 @@
 
 **Customizable, Flexible, and High Performance Scrollbars!**
 
-[![npm][npm-version-badge]](https://www.npmjs.com/package/smooth-scrollbar)
-[![monthly downloads][npm-downloads-badge]](https://www.npmjs.com/package/smooth-scrollbar)
+[![npm][npm-version-badge]](https://www.npmjs.com/@tinokaartovuori/smooth-scrollbar)
+[![monthly downloads][npm-downloads-badge]](https://www.npmjs.com/@tinokaartovuori/smooth-scrollbar)
 [![core size][size-badge]](dist/smooth-scrollbar.js)
 [![gzip size][gzip-size-badge]](dist/smooth-scrollbar.js)
 [![Build status][github-action-badge]](https://github.com/idiotWu/smooth-scrollbar/actions/workflows/deploy.yml)
@@ -23,16 +23,12 @@
 
 > [Tell us about the features you want in the next major update](https://github.com/idiotWu/smooth-scrollbar/discussions/392).
 
-Via NPM **(recommended)**:
+> THIS IS A DERIVED VERSION FROM THE ORIGINAL. This version has external rAF support.
+
+Via NPM:
 
 ```
-npm install smooth-scrollbar --save
-```
-
-Via Bower:
-
-```
-bower install smooth-scrollbar --save
+npm install @tinokaartovuori/smooth-scrollbar --save
 ```
 
 ## Browser Compatibility

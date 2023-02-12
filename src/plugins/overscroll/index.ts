@@ -1,5 +1,5 @@
 import { clamp, debounce } from '../../utils';
-import { ScrollbarPlugin } from 'smooth-scrollbar';
+import { ScrollbarPlugin } from '../../plugin';
 import { Bounce } from './bounce';
 import { Glow } from './glow';
 
